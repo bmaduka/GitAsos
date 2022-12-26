@@ -1,6 +1,6 @@
 
-describe('locatorsTest', () => {
-    it('cssLocators', () => {
+describe('asosTest', () => {
+    it('addItemToBasket', () => {
         cy.on('uncaught:exception', (err, runnable) => {
             return false
         })
